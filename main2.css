@@ -18,7 +18,6 @@ body,
 div,
 span,
 object,
-iframe,
 h1,
 h2,
 h3,
@@ -324,7 +323,6 @@ body {
 }
 #wrapper {
     background: #f9f9f9 url(background.png);
-	background-repeat:repeat-x;
 }
 a {
     color: #2983c8;
@@ -360,7 +358,7 @@ h6,
 	font-family: 'Open Sans Light',sans-serif;
 	font-weight: normal;
 	display: block;
-	margin: 0 0 25px 50px;
+	margin: 0 0 25px 25px;
 	line-height: 100%;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.75);
 	color: rgba(92,92,92,1);
@@ -381,7 +379,7 @@ h1,
 .huge h2,
 .large h2,
 .billboard h2 {
-	font-size: 60px;
+	font-size: 48px;
 	letter-spacing: normal;
 }
 h2 {
@@ -414,13 +412,13 @@ ul,
 ol,
 dl,
 hgroup {
-	margin: 0 0 15px 50px;
+	margin: 0 0 15px 25px;
 	font-family: 'Open Sans Light', sans-serif;
 	font-size: 18px;
 }
 
 .red {
-	color: #AF3232;
+	color: rgb(41,131,200);
 }
 li {
 	margin-left: 24px;
@@ -442,84 +440,6 @@ code {
     font-size: 14px;
 }
 .center { text-align: center }
-textarea,
-input[type=email],
-input[type=password],
-input[type=text] {
-    height: 24px;
-    background: #fafafa;
-    border-color: #dbdbdb;
-    border-style: solid;
-    border-width: 1px;
-    padding: 4px 8px;
-    border-radius: 6px;
-    box-shadow: 0 2px 1px rgba(0,0,0,0.1) inset;
-    transition: all linear .1s;
-}
-textarea { height: auto }
-textarea:focus,
-input[type=email]:focus,
-input[type=password]:focus,
-input[type=text]:focus {
-    border-color: #bbb;
-    box-shadow: 0 2px 1px rgba(0,0,0,0.1) inset,0 0 8px 0 rgba(103,167,208,0.6);
-    transition: all linear .1s;
-}
-.form-field { margin-bottom: 8px }
-.errorlist {
-    margin: 0;
-    font-family: 'Open Sans',sans-serif;
-    color: #c00;
-}
-.errorlist li {
-    list-style-type: none;
-    margin: 0;
-}
-.field-error input[type=email],
-.field-error input[type=password],
-.field-error input[type=text] {
-    border-color: #af3232;
-    box-shadow: 0 2px 1px rgba(0,0,0,0.1) inset,0 0 8px 0 rgba(175,50,50,0.6);
-}
-.row {
-    margin-left: -24px;
-    zoom: 1;
-}
-.row:after {
-    display: block;
-    visibility: hidden;
-    height: 0;
-    clear: both;
-    content: ".";
-}
-[class*="span"] {
-    float: left;
-    margin-left: 24px;
-}
-.span1 { width: 68px }
-.span2 { width: 160px }
-.span3 { width: 252px }
-.span4 { width: 344px }
-.span5 { width: 436px }
-.span6 { width: 528px }
-.span7 { width: 620px }
-.span8 { width: 712px }
-.span9 { width: 804px }
-.span10 { width: 896px }
-.span11 { width: 988px }
-.span12,
-.container { width: 1080px }
-.offset1 { margin-left: 116px }
-.offset2 { margin-left: 208px }
-.offset3 { margin-left: 300px }
-.offset4 { margin-left: 392px }
-.offset5 { margin-left: 484px }
-.offset6 { margin-left: 576px }
-.offset7 { margin-left: 668px }
-.offset8 { margin-left: 760px }
-.offset9 { margin-left: 852px }
-.offset10 { margin-left: 944px }
-.offset11 { margin-left: 1036px }
 #main-content,
 #main-feature { padding-bottom: 48px }
 .main-column {
